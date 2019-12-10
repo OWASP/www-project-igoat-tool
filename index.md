@@ -1,194 +1,54 @@
 ---
 
 layout: col-sidebar
-title: OWASP igoat tool
+title: OWASP Igoat Tool
 tags: example-tag
 level: 0
 type: tool
 
 auto-migrated: 1
+auto-migrated: 1
+
 ---
 
-This is an example of a Project or Chapter Page.
-# Main
 
-<div style="width:100%;height:160px;border:0,margin:0;overflow: hidden;">
+<!-- Standard Chapter Page Template
+This is an example of a Project or Chapter page.
+Please change these items to indicate the actual information you wish to present. In addition to this information, the 'front-matter' above the text should be modified to reflect your actual information.  An explanation of each of the front-matter items is below:
 
-![OWASP_Project_Header.jpg](OWASP_Project_Header.jpg
-"OWASP_Project_Header.jpg")
+{front matter for this file}
 
-</div>
+```
+- layout: This is the layout used by project and chapter pages.  You should leave this value as col-sidebar
+- title: This is the title of your project or chapter page, usually the name.  For example, OWASP Zed Attack Proxy or OWASP Baltimore
+- tags: This is a space-delimited list of tags you associate with your project or chapter.  If you are using tabs, at least one of these tags should be unique in order to be used in the tabs files (an example tab is included in this repo) 
+- region: This is the region you are in according to our data
+```
 
-<table>
-<tbody>
-<tr class="odd">
-<td><h2 id="owasp_igoat_tool_project">OWASP iGoat Tool Project</h2>
-<p>iGoat is a learning tool for iOS developers (iPhone, iPad, etc.). It was inspired by the WebGoat project, and has a similar conceptual flow to it.</p>
-<p>iGoat is a learning tool for iOS developers (iPhone, iPad, etc.). It was inspired by the WebGoat project, and has a similar conceptual flow to it.</p>
-<p>As such, iGoat is a safe environment where iOS developers can learn about the major security pitfalls they face as well as how to avoid them. It is made up of a series of lessons that each teach a single (but vital) security lesson.</p>
-<p>As such, iGoat is a safe environment where iOS developers can learn about the major security pitfalls they face as well as how to avoid them. It is made up of a series of lessons that each teach a single (but vital) security lesson.</p>
-<p>The lessons are laid out in the following steps:</p>
-<p>The lessons are laid out in the following steps:</p>
-<ol>
-<ol>
-<li>Brief introduction to the problem.</li>
-<li>Brief introduction to the problem.</li>
-<li>Verify the problem by exploiting it.</li>
-<li>Verify the problem by exploiting it.</li>
-<li>Brief description of available remediations to the problem.</li>
-<li>Brief description of available remediations to the problem.</li>
-<li>Fix the problem by correcting and rebuilding the iGoat program.</li>
-<li>Fix the problem by correcting and rebuilding the iGoat program.</li>
-</ol>
-</ol>
-<p>Step 4 is optional, but highly recommended for all iOS developers. Assistance is available within iGoat if you don't know how to fix a specific problem.</p>
-<p>Step 4 is optional, but highly recommended for all iOS developers. Assistance is available within iGoat if you don't know how to fix a specific problem.</p>
-<p>iGoat can be downloaded here: https://github.com/owasp/igoat</p>
-<p>iGoat can be downloaded here: https://github.com/owasp/igoat</p>
-<p>{{#widget:PayPal Donation</p></td>
-<p>{{#widget:PayPal Donation</p></td>
-<p>}}</p>
-<h2 id="description">Description</h2>
-<p>iGoat has been designed and built to be a foundation on which to build a series of iOS security lessons. The initial iGoat release will include a handful of lessons to work through, but one of the aims of the project is to build a community of developers to help build out additional lessons over time -- much as WebGoat has before it.</p>
-<h2 id="licensing">Licensing</h2>
-<p>iGoat is free software, released under the GPLv3 license.</p></td>
-<p><a href="https://github.com/OWASP/igoat">Installation Package</a></p>
-<p><a href="https://github.com/owasp/igoat">Source Code</a></p>
-<p>What's New (Revision History)</p>
-<p>Documentation</p>
-<p>Wiki Home Page</p>
-<p><a href="https://github.com/owasp/igoat/issues">Issue Tracker</a></p>
-<p><a href="https://www.owasp.org/images/3/30/Igoat_preso.ppt">Slide Presentation</a></p>
-<p>Video</p>
-<h2 id="project_leader">Project Leader</h2>
-<p>Swaroop Yermalkar</p>
-<h2 id="related_projects">Related Projects</h2>
-<ul>
-<li><a href="https://www.owasp.org/index.php/Category:OWASP_WebGoat_Project#tab=Main">OWASP_Webgoat</a></li>
-</ul>
-<h2 id="classifications">Classifications</h2>
-<table>
-<tbody>
-<tr class="odd">
-<img src="Project_Type_Files_TOOL.jpg" title="Project_Type_Files_TOOL.jpg" alt="Project_Type_Files_TOOL.jpg" /><figcaption>Project_Type_Files_TOOL.jpg</figcaption>
-</figure></td>
-</tr>
-<tr class="even">
-<img src="Owasp-incubator-trans-85.png" title="Owasp-incubator-trans-85.png" alt="Owasp-incubator-trans-85.png" /><figcaption>Owasp-incubator-trans-85.png</figcaption>
-</figure></td>
-</tr>
-<tr class="odd">
-<img src="Owasp-defenders-small.png" title="Owasp-defenders-small.png" alt="Owasp-defenders-small.png" /><figcaption>Owasp-defenders-small.png</figcaption>
-</figure></td>
-</tr>
-<tr class="even">
-<img src="Agplv3-155x51.png" title="Agplv3-155x51.png" alt="Agplv3-155x51.png" /><figcaption>Agplv3-155x51.png</figcaption>
-</figure></td>
-</tr>
-</tbody>
-</table></td>
-<ul>
-<li>TBD</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+{copy for this file (index.md)}
+Replace the text above the commented area with your information in the format below:
+```
+## Welcome
+Include some information here about your chapter
 
-# FAQs
+## Participation
+The Open Web Application Security Project (OWASP) is a nonprofit foundation that works to improve the security of software. All of our projects ,tools, documents, forums, and chapters are free and open to anyone interested in improving application security. 
 
-## How can I participate in your project?
+Chapters are led by local leaders in accordance with the [Chapter Leader Handbook](/www-policy/rules-of-procedure/chapter-handbook). Financial contributions should only be made online using the authorized online donation button. To be a SPEAKER at ANY OWASP Chapter in the world simply review the [speaker agreement](/www-policy/speaker-agreement) and then contact the local chapter leader with details of what OWASP Project, independent research, or related software security topic you would like to present.
 
-All you have to do is make the Project Leader's aware of your available
-time to contribute to the project. It is also important to let the
-Leader's know how you would like to contribute and pitch in to help the
-project meet it's goals and milestones. There are many different ways
-you can contribute to an OWASP Project, but communication with the leads
-is key.
+Everyone is welcome and encouraged to participate in our [Projects](/projects), [Local Chapters](/chapters), [Events](/events), [Online Groups](https://groups.google.com/a/owasp.com/){:target='_blank'}, and [Community Slack Channel](https://owasp.slack.com/){:target='_blank'}. We especially encourage diversity in all our initiatives. OWASP is a fantastic place to learn about application security, to network, and even to build your reputation as an expert. We also encourage you to be [become a member](/membership) or consider a [donation](/donate) to support our ongoing work.
 
-## If I am not a programmer can I participate in your project?
+## Local News
+- Meeting Location
+- Everyone is welcome to join us at our chapter meetings.
 
-Yes, you can certainly participate in the project if you are not a
-programmer or technical. The project needs different skills and
-expertise and different times during its development. Currently, we are
-looking for researchers, writers, graphic designers, and a project
-administrator.
+```
+{info.md}
 
-# Acknowledgements
+This separate file is where you should place links to your Google Group and Meetup page. It will be automatically rendered in the column sidebar.
 
-## Contributors
+{leaders.md}
 
-The first contributors to the project were:
+Another separate file that should simply include each leaders name with mailto link as a list. It will also be automatically rendered in the column sidebar.
 
-  - Ken van Wyk who created the OWASP iGoat project.
-  - Jonathan Carter who worked as lead developer for OWASP iGoat
-    project.
-
-# Road Map and Getting Involved
-
-Version Releases:
-
-  - OWASP iGoat v1.0 - Jun 15, 2011
-  - OWASP iGoat v1.0.1 - Jun 24, 2011
-  - OWASP iGoat v1.1 - Aug 23, 2011
-  - OWASP iGoat v1.2 - Mar 29, 2012
-  - OWASP iGoat v2.0 - Feb 27, 2013
-  - OWASP iGoat v2.4 - Feb 22, 2017
-
-Vulnerabilities included:
-
-  - Data Protection (Transit)
-  - Authentication
-  - Reverse Engineering
-  - Data Protection (Rest)
-  - Tampering
-  - Injection Flaws<strong><strong>
-
-## Getting Involved
-
-Involvement in the development and promotion of Tool Project Template is
-actively encouraged\! You do not have to be a security expert or a
-programmer to contribute. Some of the ways you can help are as follows:
-
-## Coding
-
-We could implement some of the later items on the roadmap sooner if
-someone wanted to help out with unit or automated regression tests
-
-## Localization
-
-Are you fluent in another language? Can you help translate the text
-strings in the <strong>Tool Project Template</strong> into that
-language?
-
-## Testing
-
-### Do you have a flair for finding bugs in software? We want to product a high quality product, so any help with Quality Assurance would be greatly appreciated. Let us know if you can offer your help.
-
-
-
-### Feedback
-
-Please use the OWASP iGoat Tool Project mailing list for feedback about:
-
-  - What do like?
-  - What don't you like?
-  - What features would you like to see prioritized on the roadmap?
-
-# Screenshots
-
-![IGoat_SQL_Injection_Vulnerability.jpg](IGoat_SQL_Injection_Vulnerability.jpg
-"IGoat_SQL_Injection_Vulnerability.jpg")
-![IGoat_List_of_Exercises.jpg](IGoat_List_of_Exercises.jpg
-"IGoat_List_of_Exercises.jpg")
-
-# Project About
-
-__NOTOC__ <headertabs></headertabs>
-
-[Category:OWASP Project](Category:OWASP_Project "wikilink")
-[Category:OWASP_Builders](Category:OWASP_Builders "wikilink")
-[Category:OWASP_Defenders](Category:OWASP_Defenders "wikilink")
-[Category:OWASP_Tool](Category:OWASP_Tool "wikilink") [iGoat
-Tool](Category:Projects "wikilink") [iGoat
-Tool](Category:Lab_Projects "wikilink") [iGoat
-Tool](Category:OWASP_iGoat_Tool_Project "wikilink")
+-->
