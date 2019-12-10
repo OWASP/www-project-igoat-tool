@@ -31,7 +31,7 @@ auto-migrated: 1
 </ol>
 <p>Step 4 is optional, but highly recommended for all iOS developers. Assistance is available within iGoat if you don't know how to fix a specific problem.</p>
 <p>iGoat can be downloaded here: https://github.com/owasp/igoat</p>
-<p>{{#widget:PayPal Donation</p></td>
+<p>#widget:PayPal Donation</p></td>
 <td><p>target=_blank</p></td>
 <p>}}</p>
 <h2 id="description">Description</h2>
