@@ -1,3 +1,3 @@
 ### Leaders
 
-* [Swaroop Yermalkar](mailto://swaroop.yermalker@owasp.org)
+* [Swaroop Yermalkar](mailto:swaroop.yermalker@owasp.org)
