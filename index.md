@@ -28,9 +28,6 @@ __Vulnerabilities Covered (version 1.0):__ [![Download iGoat](https://img.shield
 
 <img src="https://github.com/swaroopsy/test/blob/master/h1.gif?raw=true" width="256" title="iGoat App">
 
-## Demo
-![Demo](https://github.com/swaroopsy/test/blob/master/OWASP_iGoat_Demo.gif)
-
 __Documentation:__ <a href="https://github.com/OWASP/iGoat-Swift/wiki">iGoat Wiki</a>
 
 __iGoat Quick Setup__ `git clone https://github.com/OWASP/iGoat-Swift.git`and open iGoat-Swift.xcodeproj with xcode.
@@ -38,8 +35,6 @@ __Setup iGoat Server__ Navigate to server > docker_packaging and then use comman
 __Using Cydia Repo__ - Open Cydia -> Sources -> Edit and add source http://swiftigoat.yourepo.com/ and then search for iGoat and install it.
 
 __Project Lead__ - Swaroop Yermalkar [![Twitter Follow](https://img.shields.io/twitter/follow/espadrine.svg?style=social&label=Follow)](https://twitter.com/swaroopsy)
-
-__Lead Developer__ - Anthony Gonsalves
 
 ## Architecture
 ![Architecture](https://github.com/swaroopsy/test/blob/master/Architecture.png?raw=true)
