@@ -1,7 +1,7 @@
 ---
 
 layout: col-sidebar
-title: OWASP Igoat Tool
+title: OWASP iGoat Tool
 tags: igoat
 level: 2
 type: tool
@@ -21,6 +21,31 @@ As such, iGoat is a safe environment where iOS developers can learn about the ma
 1. Fix the problem by correcting and rebuilding the iGoat program.
 
 Step 4 is optional, but highly recommended for all iOS developers. Assistance is available within iGoat if you don't know how to fix a specific problem.
+
+## OWASP iGoat (Swift) - A Damn Vulnerable Swift Application for iOS [![Twitter Follow](https://img.shields.io/twitter/follow/espadrine.svg?style=social&label=Follow)](https://twitter.com/OWASPiGoat/)
+
+__Vulnerabilities Covered (version 1.0):__ [![Download iGoat](https://img.shields.io/badge/Download-iGoat-orange.svg)](https://codeload.github.com/OWASP/iGoat-Swift/zip/master) Documentation: https://docs.igoatapp.com/
+
+Summary            |  Snapshot
+:-------------------------:|:-------------------------:
+__OWASP TOP 10 Mobile__ </br><p align="left">* __Reverse Engineering__</br>* __Runtime Analysis__</br>* __Data Protection (Rest)__</br>* __Data Protection (Transit)__</br>* __Key Management__</br>* __Tampering__</br>* __Injection Flaws__</br>* __Broken Cryptography__</br>* __Memory Management__</br>* __URL Scheme Attack__</br>* __Social Engineering__</br>* __SSL Pinning__</br>* __Authentication__</br>* __Jailbreak Detection__</br>* __Side Channel Data Leaks__</br>* __Cloud Misconfiguration__</br>* __Crypto Challenges__ | <img src="https://github.com/swaroopsy/test/blob/master/h1.gif?raw=true" width="256" title="iGoat App">
+
+## Demo
+![Demo](https://github.com/swaroopsy/test/blob/master/OWASP_iGoat_Demo.gif)
+
+__Documentation:__ <a href="https://github.com/OWASP/iGoat-Swift/wiki">iGoat Wiki</a>
+
+__iGoat Quick Setup__ `git clone https://github.com/OWASP/iGoat-Swift.git`and open iGoat-Swift.xcodeproj with xcode.
+__Setup iGoat Server__ Navigate to server > docker_packaging and then use command `docker compose up` <br>
+__Using Cydia Repo__ - Open Cydia -> Sources -> Edit and add source http://swiftigoat.yourepo.com/ and then search for iGoat and install it.
+
+__Project Lead__ - Swaroop Yermalkar [![Twitter Follow](https://img.shields.io/twitter/follow/espadrine.svg?style=social&label=Follow)](https://twitter.com/swaroopsy)
+
+__Lead Developer__ - Anthony Gonsalves
+
+## Architecture
+![Architecture](https://github.com/swaroopsy/test/blob/master/Architecture.png?raw=true)
+
 
 <!-- Standard Chapter Page Template
 This is an example of a Project or Chapter page.
