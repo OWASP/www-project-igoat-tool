@@ -1,0 +1,24 @@
+audience:
+  - builder
+community:
+  - name: project-igoat
+    platform: slack
+    url: https://owasp.slack.com/archives/C2BKNP7DZ
+    description: project to discuss the OWASP iGoat project https://www.owasp.org/index.php/OWASP_iGoat_Project
+leaders:
+  - name: Swaroop Yermalkar
+    email: swaroop.yermalker@owasp.org
+    github: swaroopsy
+level: 2
+name: OWASP iGoat Tool
+pitch: Description for OWASP iGoat Tool
+repositories:
+  - name: www-project-igoat-tool
+    url: https://github.com/OWASP/www-project-igoat-tool
+    description: OWASP Foundation Web Repository
+tags:
+  - igoat
+  - custom-tag-1
+  - custom-tag-2
+type: tool
+website: https://owasp.org/www-project-igoat-tool
